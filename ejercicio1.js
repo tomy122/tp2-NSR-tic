@@ -1,6 +1,5 @@
 var secretnumber = "1"
-prompt(secretnumber)
-if(secretnumber === 1) {"correcto"}else{"incorrecto"}
-if(secretnumber < 1) {"incorrecto"}
-if(secretnumber > 1) {"incorrecto"}	
-	
+prompt("secretnumber")
+if(secretnumber === 1) {console.log("correcto")("incorrecto")}
+if(secretnumber < 1) {console.log("incorrecto")}
+if(secretnumber > 1) {console.log("incorrecto")}	
